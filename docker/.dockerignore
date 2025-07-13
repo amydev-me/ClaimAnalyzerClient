@@ -1,0 +1,10 @@
+react-app/node_modules
+react-app/build
+react-app/.git
+react-app/.gitignore
+react-app/README.md
+terraform/
+scripts/
+.terraform/
+*.tfstate
+*.tfstate.backup
