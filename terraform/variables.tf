@@ -21,3 +21,9 @@ variable "environment" {
   type        = string
   default     = "prod"
 }
+
+variable "image_tag" {
+  description = "Docker image tag"
+  type        = string
+  default     = "latest"
+}
