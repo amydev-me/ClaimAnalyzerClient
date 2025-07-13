@@ -17,9 +17,9 @@ variable "ecr_repo_uri" {
 } 
 
 variable "environment" {
-  description = "Environment name"
-  type        = string
-  default     = "prod"
+    description = "Environment name"
+    type        = string
+    default     = "cicd"
 }
 
 variable "image_tag" {
