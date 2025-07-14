@@ -8,8 +8,9 @@ on:
 env:
   AWS_REGION: ap-southeast-1
   ECR_REPOSITORY: my-react-app
-  ECS_CLUSTER: my-react-app-cicd-cluster   
-  ECS_SERVICE: my-react-app-cicd-service  
+  ECS_CLUSTER: my-react-app-cicd-cluster    # Updated
+  ECS_SERVICE: my-react-app-cicd-service    # Updated
+
 
 jobs:
   deploy:

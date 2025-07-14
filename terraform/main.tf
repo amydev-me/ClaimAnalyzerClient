@@ -22,7 +22,7 @@ resource "aws_cloudwatch_log_group" "app" {
 
 # Security Groups
 resource "aws_security_group" "alb" {
-  name        = "${var.app_name}-${var.environment}-alb-sg"
+  name_prefix = "${var.app_name}-${var.environment}-alb-sg"
   description = "Security group for ALB"
   vpc_id      = data.aws_vpc.default.id
 
