@@ -31,10 +31,11 @@ This repository contains the frontend Single Page Application (SPA) built with R
 
 ## Architecture Diagram (Frontend Focus)
 
+<img width="3840" height="3511" alt="FrontendDiagram" src="https://github.com/user-attachments/assets/b767f93a-33a8-4d3c-b302-120dafc9c0a9" />
 
 
 
-# Design Choices Explanation (Frontend)
+## Design Choices Explanation (Frontend)
 
 When building the frontend, the goal was to create a responsive user interface and deploy it reliably using modern cloud practices.
 
@@ -65,7 +66,7 @@ When building the frontend, the goal was to create a responsive user interface a
   This automates the entire process from code commit to deployment. It involves building the React app, creating a Docker image, pushing it to ECR, and then triggering an ECS service update. This ensures that new versions of the frontend are deployed quickly and reliably.
 
 
-# Assumptions Made During Development (Frontend)
+## Assumptions Made During Development (Frontend)
 
 - **Local Development Environment:**  
   Assumed Node.js and npm/yarn were installed for building the React app and Docker was installed for containerization.
@@ -83,7 +84,7 @@ When building the frontend, the goal was to create a responsive user interface a
   Assumed the backend API Gateway endpoints (`/upload`, `/analyze`) would be available and functioning.
 
 
-# Deployment Guide
+## Deployment Guide
 
 This guide covers deploying the frontend application, assuming the backend infrastructure is already in place.
 
